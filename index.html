@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ciclo de cores</title>
+</head>
+<body>
+    
+    <div id="corpo">
+
+        <div id="colorBox"></div>
+
+        <div id="controles">
+
+        <input type="text" id="numeroHex" placeholder="Digite uma cor Hex">
+
+        <input type="number" id="incremento" placeholder="Incremento">
+
+        <input type="number" id="intervaloMs" placeholder="Intervalo em ms">
+
+        <button id="btn">Iniciar</button>
+
+        <br>
+        <h4 id="erro"></h4>
+
+        <div id="comofunciona">
+
+            <p id="hexTxt">
+                cor Hexadecimal:
+                Um número hexadecimal é uma maneira de representar cores usando números e letras.
+                Este é o código de cor que o usuário insere. Ele está no formato hexadecimal,
+                 e o código pega esse valor e muda gradualmente a cor baseando-se nesse código.
+            </p>
+
+            <p id="increNum">
+                Incremento:
+                Este valor define a velocidade com que as cores mudam.
+            </p>
+
+            <p id="interNum">Intervalo: 
+                O usuário pode definir quanto quer que as cores mudem a cada passo. 
+                Se colocar 1, a cor vai mudar um pouco; se colocar 10, vai mudar mais rapidamente.
+            </p>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
